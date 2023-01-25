@@ -1,5 +1,5 @@
 package sample_go
 
-func Hello() string {
-	return "Hello Golang"
+func Hello(name string) string {
+	return "Hello " + name
 }
